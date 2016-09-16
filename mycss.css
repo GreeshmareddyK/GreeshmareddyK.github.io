@@ -1,0 +1,12 @@
+body{
+background-image:url("b3.gif");
+background-size:1500px 800px;
+background-repeat:no-repeat;
+ }
+ 
+ h1{
+ text-align:center;
+  font-size: 100px;
+  color:blue;
+  font-family:sanserif
+ }

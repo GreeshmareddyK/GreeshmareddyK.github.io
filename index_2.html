@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset="UTF-8">
+<title>hw1</title>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+<p>Enter the text you want search on duck-duck go</p>
+<p>
+<input type="text" id="foo" name="foo" placeholder="Enter keyword">
+<button onclick="myfunction()">submit</button>
+<script>
+function myfunction()
+{
+ var x=document.getElementById('foo').value;
+ location.href="https://duckduckgo.com/?q="+x;
+}
+</script>
+</p>
+</body>
+</html>

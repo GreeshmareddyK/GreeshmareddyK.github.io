@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+<meta charset="UTF-8">
+<title>Web Programming HW2</title>
+<link rel="stylesheet" href="mycss.css">
+</head>
+<body onload="show()">
+
+<h1 id="demo">Happy Birthday!!</h1>
+<script type="text/javascript">
+function show() {
+        var x=location.href.split('=');
+ 
+		var name1=x[1].split('+');
+		
+		var bdayname=name1.join(" ");
+        document.getElementById('demo').innerHTML ="HAPPY BIRTHDAY"+" "+bdayname +" "+ ":)";
+    }
+</script>
+</body>
+</html>
