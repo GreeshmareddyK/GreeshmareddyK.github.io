@@ -1,6 +1,7 @@
 body{
 background-image:url("b3.gif");
-background-size:1500px 800px;
+background-size:cover;
+min-height:100%;
 background-repeat:no-repeat;
  }
  
